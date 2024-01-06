@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D383FC3C2B48FAAA008CF351 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D383FC3B2B48FAAA008CF351 /* Person.swift */; };
 		D3DC27392B47D55900A89F7B /* OPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC27092B47D55800A89F7B /* OPApp.swift */; };
+		D3EBE72B2B48F8550024BC09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EBE72A2B48F8540024BC09 /* ContentView.swift */; };
+		D3EBE72F2B48F8870024BC09 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EBE72E2B48F8870024BC09 /* Event.swift */; };
+		D3EBE7352B48F8CA0024BC09 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EBE7312B48F8CA0024BC09 /* PeopleView.swift */; };
+		D3EBE7362B48F8CA0024BC09 /* EditPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EBE7322B48F8CA0024BC09 /* EditPersonView.swift */; };
+		D3EBE7372B48F8CA0024BC09 /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EBE7332B48F8CA0024BC09 /* EditEventView.swift */; };
+		D3EBE7382B48F8CA0024BC09 /* Previewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EBE7342B48F8CA0024BC09 /* Previewer.swift */; };
 		D3F938752B48ED1F00DF45B5 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D3F938722B48ED1F00DF45B5 /* Localizable.xcstrings */; };
 		D3F938762B48ED1F00DF45B5 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D3F938732B48ED1F00DF45B5 /* InfoPlist.xcstrings */; };
 		D3F938772B48ED1F00DF45B5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F938742B48ED1F00DF45B5 /* Launch Screen.storyboard */; };
@@ -33,8 +40,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D383FC3B2B48FAAA008CF351 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		D3DC26E12B47D52400A89F7B /* OP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3DC27092B47D55800A89F7B /* OPApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OPApp.swift; sourceTree = "<group>"; };
+		D3EBE72A2B48F8540024BC09 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3EBE72E2B48F8870024BC09 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		D3EBE7312B48F8CA0024BC09 /* PeopleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		D3EBE7322B48F8CA0024BC09 /* EditPersonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPersonView.swift; sourceTree = "<group>"; };
+		D3EBE7332B48F8CA0024BC09 /* EditEventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
+		D3EBE7342B48F8CA0024BC09 /* Previewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Previewer.swift; sourceTree = "<group>"; };
 		D3F938722B48ED1F00DF45B5 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		D3F938732B48ED1F00DF45B5 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		D3F938742B48ED1F00DF45B5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -95,16 +109,28 @@
 			children = (
 				D3F938782B48ED4000DF45B5 /* MyBooks.entitlements */,
 				D3DC27092B47D55800A89F7B /* OPApp.swift */,
+				D3EBE72A2B48F8540024BC09 /* ContentView.swift */,
+				D3F9388A2B48EDE400DF45B5 /* Models */,
 				D3F938972B48EDE400DF45B5 /* Accessory View */,
 				D3F9387F2B48EDE400DF45B5 /* Contacts */,
 				D3F938932B48EDE400DF45B5 /* Extensions */,
-				D3F9388A2B48EDE400DF45B5 /* Models */,
 				D3F9388E2B48EDE400DF45B5 /* Opportunities */,
 				D3F938832B48EDE400DF45B5 /* Preview Content */,
 				D3F938862B48EDE400DF45B5 /* Previews */,
 				D3F9387D2B48EDE400DF45B5 /* Quotes */,
+				D3EBE7302B48F89A0024BC09 /* Events */,
 			);
 			path = OP;
+			sourceTree = "<group>";
+		};
+		D3EBE7302B48F89A0024BC09 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				D3EBE7332B48F8CA0024BC09 /* EditEventView.swift */,
+				D3EBE7322B48F8CA0024BC09 /* EditPersonView.swift */,
+				D3EBE7312B48F8CA0024BC09 /* PeopleView.swift */,
+			);
+			path = Events;
 			sourceTree = "<group>";
 		};
 		D3F9387D2B48EDE400DF45B5 /* Quotes */ = {
@@ -140,6 +166,7 @@
 				D3F938872B48EDE400DF45B5 /* PreviewContainer.swift */,
 				D3F938882B48EDE400DF45B5 /* ContactSamples.swift */,
 				D3F938892B48EDE400DF45B5 /* OpportunitySamples.swift */,
+				D3EBE7342B48F8CA0024BC09 /* Previewer.swift */,
 			);
 			path = Previews;
 			sourceTree = "<group>";
@@ -150,6 +177,8 @@
 				D3F9388B2B48EDE400DF45B5 /* Quote.swift */,
 				D3F9388C2B48EDE400DF45B5 /* Opportunity.swift */,
 				D3F9388D2B48EDE400DF45B5 /* Contact.swift */,
+				D383FC3B2B48FAAA008CF351 /* Person.swift */,
+				D3EBE72E2B48F8870024BC09 /* Event.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -255,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D383FC3C2B48FAAA008CF351 /* Person.swift in Sources */,
 				D3F9389F2B48EDE400DF45B5 /* PreviewContainer.swift in Sources */,
 				D3F9389B2B48EDE400DF45B5 /* NewContactView.swift in Sources */,
 				D3F938A02B48EDE400DF45B5 /* ContactSamples.swift in Sources */,
@@ -262,16 +292,22 @@
 				D3F938A62B48EDE400DF45B5 /* NewOpportunitiesView.swift in Sources */,
 				D3F938A72B48EDE400DF45B5 /* OpportunitiesList.swift in Sources */,
 				D3F938A22B48EDE400DF45B5 /* Quote.swift in Sources */,
+				D3EBE7352B48F8CA0024BC09 /* PeopleView.swift in Sources */,
 				D3F938A92B48EDE400DF45B5 /* UIColor+Extension.swift in Sources */,
+				D3EBE72B2B48F8550024BC09 /* ContentView.swift in Sources */,
 				D3F9389C2B48EDE400DF45B5 /* ContactsStackView.swift in Sources */,
 				D3F938A42B48EDE400DF45B5 /* Contact.swift in Sources */,
 				D3F938A12B48EDE400DF45B5 /* OpportunitySamples.swift in Sources */,
 				D3F938A52B48EDE400DF45B5 /* EditOpportunitiesView.swift in Sources */,
 				D3F938A82B48EDE400DF45B5 /* OpportunitiesListView.swift in Sources */,
 				D3F938AC2B48EDE400DF45B5 /* RatingsView.swift in Sources */,
+				D3EBE7372B48F8CA0024BC09 /* EditEventView.swift in Sources */,
 				D3F938A32B48EDE400DF45B5 /* Opportunity.swift in Sources */,
+				D3EBE7382B48F8CA0024BC09 /* Previewer.swift in Sources */,
 				D3F938AB2B48EDE400DF45B5 /* Color+Extension.swift in Sources */,
 				D3DC27392B47D55900A89F7B /* OPApp.swift in Sources */,
+				D3EBE7362B48F8CA0024BC09 /* EditPersonView.swift in Sources */,
+				D3EBE72F2B48F8870024BC09 /* Event.swift in Sources */,
 				D3F938992B48EDE400DF45B5 /* QuotesListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

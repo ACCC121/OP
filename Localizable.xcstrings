@@ -57,6 +57,12 @@
         }
       }
     },
+    "Add a new event" : {
+
+    },
+    "Add Person" : {
+
+    },
     "author" : {
       "localizations" : {
         "de" : {
@@ -188,6 +194,18 @@
         }
       }
     },
+    "Details about this person" : {
+
+    },
+    "Edit Event" : {
+
+    },
+    "Edit Person" : {
+
+    },
+    "Email address" : {
+
+    },
     "Enter your first book." : {
       "extractionState" : "stale",
       "localizations" : {
@@ -200,6 +218,12 @@
       }
     },
     "Enter your first opportunity." : {
+
+    },
+    "FaceFacts" : {
+
+    },
+    "Failed to create preview: %@" : {
 
     },
     "Filter on title or author" : {
@@ -233,6 +257,12 @@
         }
       }
     },
+    "Location" : {
+
+    },
+    "Met at" : {
+
+    },
     "My Books" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -257,6 +287,18 @@
         }
       }
     },
+    "Name" : {
+
+    },
+    "Name (A-Z)" : {
+
+    },
+    "Name (Z-A)" : {
+
+    },
+    "Name of event" : {
+
+    },
     "New Book" : {
       "localizations" : {
         "de" : {
@@ -280,6 +322,9 @@
           }
         }
       }
+    },
+    "Notes" : {
+
     },
     "On Shelf" : {
       "localizations" : {
@@ -351,6 +396,9 @@
         }
       }
     },
+    "Select a photo" : {
+
+    },
     "Set the Contact color" : {
 
     },
@@ -364,6 +412,9 @@
           }
         }
       }
+    },
+    "Sort" : {
+
     },
     "Sort by %@" : {
       "localizations" : {
@@ -425,6 +476,9 @@
         }
       }
     },
+    "Unknown event" : {
+
+    },
     "Update" : {
       "localizations" : {
         "de" : {
@@ -434,6 +488,9 @@
           }
         }
       }
+    },
+    "Where did you meet them?" : {
+
     },
     "You need to create some contacts first." : {
 

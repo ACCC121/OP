@@ -12,9 +12,9 @@ import SwiftData
 struct OPApp: App {
     var body: some Scene {
         WindowGroup {
-            OpportunitiesListView()
+            ContentView()
         }
-        .modelContainer(for: Contact.self)
+        .modelContainer(for: Person.self)
     }
 }
     
